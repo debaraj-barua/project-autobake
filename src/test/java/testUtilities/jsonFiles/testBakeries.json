@@ -1,0 +1,93 @@
+{
+	"bakeries": [
+    {
+      "ovens": [
+        {
+          "cooling_rate": 3,
+          "guid": "oven-001",
+          "heating_rate": 3
+        },
+        {
+          "cooling_rate": 3,
+          "guid": "oven-002",
+          "heating_rate": 4
+        },
+        {
+          "cooling_rate": 4,
+          "guid": "oven-003",
+          "heating_rate": 2
+        }
+      ],
+      "guid": "bakery-001",
+      "name": "Sunspear Bakery",
+      "trucks": [
+        {
+          "load_capacity": 26,
+          "guid": "truck-001",
+          "location": {
+            "y": 0.1,
+            "x": 1.54
+          }
+        }
+      ],
+      "dough_prep_tables": [
+        {
+          "guid": "prep-table-001"
+        },
+        {
+          "guid": "prep-table-002"
+        }
+      ],
+      "products": [
+        {
+          "boxing_temp": 50,
+          "sales_price": 3.92,
+          "breads_per_oven": 4,
+          "breads_per_box": 10,
+          "item_prep_time": 4,
+          "dough_prep_time": 8,
+          "baking_temp": 195,
+          "cooling_rate": 6,
+          "guid": "Bread",
+          "baking_time": 13,
+          "resting_time": 53,
+          "production_cost": 1.43
+        },
+        {
+          "boxing_temp": 40,
+          "sales_price": 3.46,
+          "breads_per_oven": 4,
+          "breads_per_box": 5,
+          "item_prep_time": 2,
+          "dough_prep_time": 11,
+          "baking_temp": 180,
+          "cooling_rate": 11,
+          "guid": "Bagel",
+          "baking_time": 16,
+          "resting_time": 33,
+          "production_cost": 0.62
+        }
+      ],
+      "location": {
+        "y": 0.1,
+        "x": 1.54
+      },
+      "kneading_machines": [
+        {
+          "guid": "kneading-machine-001"
+        },
+        {
+          "guid": "kneading-machine-002"
+        },
+        {
+          "guid": "kneading-machine-003"
+        },
+        {
+          "guid": "kneading-machine-004"
+        },
+        {
+          "guid": "kneading-machine-005"
+        }
+      ]
+    }
+  ]}

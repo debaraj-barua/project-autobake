@@ -1,0 +1,42 @@
+{
+	"orders": [
+		{
+			"order_date": {
+				"day": 1,
+				"hour": 9
+			},
+			"guid": "order-001",
+			"products": {
+				"Bagel": 2,
+				"Donut": 9,
+				"Berliner": 9,
+				"Muffin": 5,
+				"Bread": 9
+			},
+			"customer_id": "customer-001",
+			"delivery_date": {
+				"day": 2,
+				"hour": 10
+			}
+		},
+		{
+			"order_date": {
+				"day": 2,
+				"hour": 0
+			},
+			"guid": "order-002",
+			"products": {
+				"Bagel": 4,
+				"Donut": 3,
+				"Berliner": 6,
+				"Muffin": 4,
+				"Bread": 1
+			},
+			"customer_id": "customer-001",
+			"delivery_date": {
+				"day": 2,
+				"hour": 11
+			}
+		}
+	]
+}

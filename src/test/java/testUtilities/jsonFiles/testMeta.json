@@ -1,0 +1,13 @@
+{
+	"meta": {
+		"bakeries": 2,
+		"customers": {
+			"1": 10,
+			"2": 10,
+			"3": 10
+		},
+		"duration_days": 10,
+		"products": 5,
+		"orders": 2
+	}
+}

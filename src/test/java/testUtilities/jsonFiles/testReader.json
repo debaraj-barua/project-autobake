@@ -1,0 +1,214 @@
+{
+  "bakeries": [
+    {
+      "ovens": [
+        {
+          "cooling_rate": 3,
+          "guid": "oven-001",
+          "heating_rate": 3
+        },
+        {
+          "cooling_rate": 3,
+          "guid": "oven-002",
+          "heating_rate": 4
+        },
+        {
+          "cooling_rate": 4,
+          "guid": "oven-003",
+          "heating_rate": 2
+        }
+      ],
+      "guid": "bakery-001",
+      "name": "Sunspear Bakery",
+      "trucks": [
+        {
+          "load_capacity": 26,
+          "guid": "truck-001",
+          "location": {
+            "y": 0.1,
+            "x": 1.54
+          }
+        }
+      ],
+      "dough_prep_tables": [
+        {
+          "guid": "prep-table-001"
+        },
+        {
+          "guid": "prep-table-002"
+        }
+      ],
+      "products": [
+        {
+          "boxing_temp": 50,
+          "sales_price": 3.92,
+          "breads_per_oven": 4,
+          "breads_per_box": 10,
+          "item_prep_time": 4,
+          "dough_prep_time": 8,
+          "baking_temp": 195,
+          "cooling_rate": 6,
+          "guid": "Bread",
+          "baking_time": 13,
+          "resting_time": 53,
+          "production_cost": 1.43
+        },
+        {
+          "boxing_temp": 40,
+          "sales_price": 3.46,
+          "breads_per_oven": 4,
+          "breads_per_box": 5,
+          "item_prep_time": 2,
+          "dough_prep_time": 11,
+          "baking_temp": 180,
+          "cooling_rate": 11,
+          "guid": "Bagel",
+          "baking_time": 16,
+          "resting_time": 33,
+          "production_cost": 0.62
+        }
+      ],
+      "location": {
+        "y": 0.1,
+        "x": 1.54
+      },
+      "kneading_machines": [
+        {
+          "guid": "kneading-machine-001"
+        },
+        {
+          "guid": "kneading-machine-002"
+        },
+        {
+          "guid": "kneading-machine-003"
+        },
+        {
+          "guid": "kneading-machine-004"
+        },
+        {
+          "guid": "kneading-machine-005"
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "guid": "customer-001",
+      "type": 1,
+      "name": "King's Landing Shop",
+      "location": {
+        "y": -2.6,
+        "x": -2.98
+      }
+    },
+    {
+      "guid": "customer-002",
+      "type": 1,
+      "name": "Dorne Supermarket",
+      "location": {
+        "y": -3.6,
+        "x": 2.57
+      }
+    }
+  ],
+  "meta": {
+    "bakeries": 2,
+    "customers": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+    },
+    "duration_days": 10,
+    "products": 5,
+    "orders": 2
+  },
+  "street_network": {
+    "directed": true,
+    "nodes": [
+      {
+        "name": "Wildfire Alchemist Society",
+        "company": "customer-030",
+        "location": {
+          "y": -1.37,
+          "x": 0.35
+        },
+        "guid": "node-032",
+        "type": "customer"
+      },
+      {
+        "name": "Castle Black Pub",
+        "company": "customer-018",
+        "location": {
+          "y": -2.4,
+          "x": -1.29
+        },
+        "guid": "node-020",
+        "type": "customer"
+      },
+      {
+        "name": "Sunspear Bakery",
+        "company": "bakery-001",
+        "location": {
+          "y": 0.1,
+          "x": 1.54
+        },
+        "guid": "node-001",
+        "type": "bakery"
+      }
+    ],
+    "links": [
+      {
+        "source": "node-032",
+        "guid": "edge-001",
+        "dist": 2.877338361544976,
+        "target": "node-020"
+      },
+      {
+        "source": "node-032",
+        "guid": "edge-002",
+        "dist": 1.4339855408383024,
+        "target": "node-001"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "order_date": {
+        "day": 1,
+        "hour": 9
+      },
+      "guid": "order-001",
+      "products": {
+        "Bagel": 2,
+        "Donut": 9,
+        "Berliner": 9,
+        "Muffin": 5,
+        "Bread": 9
+      },
+      "customer_id": "customer-001",
+      "delivery_date": {
+        "day": 2,
+        "hour": 10
+      }
+    },
+    {
+      "order_date": {
+        "day": 2,
+        "hour": 0
+      },
+      "guid": "order-002",
+      "products": {
+        "Bagel": 4,
+        "Donut": 3,
+        "Berliner": 6,
+        "Muffin": 4,
+        "Bread": 1
+      },
+      "customer_id": "customer-001",
+      "delivery_date": {
+        "day": 2,
+        "hour": 11
+      }
+    }
+  ]
+}

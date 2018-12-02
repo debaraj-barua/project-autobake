@@ -1,0 +1,51 @@
+{
+	"street_network": {
+		"directed": true,
+		"nodes": [
+			{
+				"name": "Wildfire Alchemist Society",
+				"company": "customer-030",
+				"location": {
+					"y": -1.3700000000000001,
+					"x": 0.34999999999999998
+				},
+				"guid": "node-032",
+				"type": "customer"
+			},
+			{
+				"name": "Castle Black Pub",
+				"company": "customer-018",
+				"location": {
+					"y": -2.3999999999999999,
+					"x": -1.29
+				},
+				"guid": "node-020",
+				"type": "customer"
+			},
+			{
+				"name": "Sunspear Bakery",
+				"company": "bakery-001",
+				"location": {
+					"y": 0.10000000000000001,
+					"x": 1.54
+				},
+				"guid": "node-001",
+				"type": "bakery"
+			}
+		],
+		"links": [
+			{
+				"source": "node-032",
+				"guid": "edge-001",
+				"dist": 2.8773383615449761,
+				"target": "node-020"
+			},
+			{
+				"source": "node-032",
+				"guid": "edge-002",
+				"dist": 1.4339855408383024,
+				"target": "node-001"
+			}
+		]
+	}
+}

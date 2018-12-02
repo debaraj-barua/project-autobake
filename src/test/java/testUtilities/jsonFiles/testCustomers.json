@@ -1,0 +1,22 @@
+{
+	"customers": [
+		{
+			"guid": "customer-001",
+			"type": 1,
+			"name": "King's Landing Shop",
+			"location": {
+				"y": -2.6000000000000001,
+				"x": -2.98
+			}
+		},
+		{
+			"guid": "customer-002",
+			"type": 1,
+			"name": "Dorne Supermarket",
+			"location": {
+				"y": -3.6000000000000001,
+				"x": 2.5699999999999998
+			}
+		}
+	]
+}
