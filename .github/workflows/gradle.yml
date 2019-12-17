@@ -16,4 +16,4 @@ jobs:
     - name: Change wrapper permissions
       run: chmod +x ./build.gradle
     - name: Build with Gradle
-      run: ./build.gradle
+      run: gradle run
